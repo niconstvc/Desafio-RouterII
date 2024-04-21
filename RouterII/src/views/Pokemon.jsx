@@ -15,10 +15,10 @@ const Pokemon = () => {
   return (
     <>
       <div className='pokemon'>
-        <h1>Selecciona un Pokemon</h1>
+        <h1>Selecciona un Pokemones</h1>
         <section>
           <select className='selectorPokemon' value={seleccionPokemon} onChange={({ target }) => handleSelectorPokemon(target.value)}>
-            <option value='' disabled>Selecciona un Pokémon</option>
+            <option value='' disabled>Pokémones</option>
             {nombresPokemon.map(({ name }) => (
               <option key={name} value={name}>{mayuscula(name)}</option>
             ))}

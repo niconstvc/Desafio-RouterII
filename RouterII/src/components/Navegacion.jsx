@@ -16,7 +16,7 @@ const Navegacion = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <NavLink to='/' className={validateRoot}>Home</NavLink>
-              <NavLink to='/pokemon' className={validateRoot}>Pokémon</NavLink>
+              <NavLink to='/pokemon' className={validateRoot}>Pokémones</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
